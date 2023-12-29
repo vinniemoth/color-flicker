@@ -4,3 +4,5 @@ That's the (I don't know, fourth?) color-flicker that i made in my life. I go ba
 
 ## Level AAA Conformance
 This time I went with a different objective. I needed to create something that could complement my studies in accessibility. So, by now, it already have some number of colors (that will be increased soon!)
+
+![Screenshot of the project](https://github.com/vinniemoth/color-flicker/blob/main/src/screenshot.png?raw=true)
