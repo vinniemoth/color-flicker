@@ -1,0 +1,112 @@
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap');
+
+/* Variables */
+:root {
+  --selectionBackgroundColor: #00883a;
+  --backgroundColor: #00883a;
+  --selectionColor: #fff;
+}
+
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Pre-defined classes */
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.box-shadow {
+  box-shadow: 0px 10px 25px 9px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles */
+html,
+body {
+  font-family: 'Oswald', sans-serif;
+  height: 100%;
+}
+
+::selection {
+  background-color: var(--selectionBackgroundColor);
+  color: var(--selectionColor);
+}
+
+.wrapper {
+  height: 100%;
+}
+
+header {
+  max-width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #ebf1ff;
+}
+
+nav {
+  max-width: 100%;
+}
+
+nav h2 {
+  cursor: pointer;
+}
+
+main {
+  max-width: 100%;
+  gap: 20px;
+  text-align: center;
+  background-color: var(--backgroundColor);
+  color: #fff;
+  transition: all 1s;
+}
+
+#svg {
+  cursor: pointer;
+  background-color: white;
+  border-radius: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+svg {
+  color: black;
+}
+
+svg:hover {
+  color: transparent;
+}
+
+button {
+  font-family: 'Oswald', sans-serif;
+  background-color: #fff;
+  letter-spacing: 5px;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 40%;
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
